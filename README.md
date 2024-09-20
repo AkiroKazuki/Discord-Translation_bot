@@ -42,11 +42,13 @@
 8. **Set the environment variable:**
 
 **For Unix-based systems (Linux/macOS):**
-    ```sh
-       export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your-service-account-file.json
+
+         ```sh
+      export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your-service-account-file.json
 
 **For Windows:**
-     ```cmd
+
+        ```cmd
       set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-service-account-file.json
 
 9. **Clone the repository:**
