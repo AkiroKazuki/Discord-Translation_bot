@@ -34,7 +34,7 @@
 
 6. **Set the Google Cloud project:**
    ```sh
-gcloud config set project YOUR_PROJECT_ID
+   gcloud config set project YOUR_PROJECT_ID
 
 
 7. **Place the JSON key file in a secure location on your server.**
@@ -43,21 +43,21 @@ gcloud config set project YOUR_PROJECT_ID
 
 **For Unix-based systems (Linux/macOS):**
     ```sh
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your-service-account-file.json"
+       export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your-service-account-file.json
 
 **For Windows:**
      ```cmd
-set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-service-account-file.json"
+      set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-service-account-file.json
 
 9. **Clone the repository:**
      ```sh
-git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
 
 10. **Install dependencies:**
      ```sh
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 11. **Run the bot:**
      ```sh
-python bot.py
+      python bot.py
